@@ -70,10 +70,22 @@ Header
 }
 
 .button {
-    background-color: pink;
-    height: 50px;
     float: left;
     width: 20%;
+    line-height: 50px;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+.accedi {
+    border: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 8px;
+    right: 0;
 }
 
 /********
