@@ -97,6 +97,16 @@ Main
     background-color: antiquewhite;
 }
 
+.colonna {
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: antiquewhite;
+
+}
+
+
+
 
 
 
