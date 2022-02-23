@@ -15,7 +15,7 @@
     width: 1420px;
     height: 700px;
     margin: auto;
-    /* background-color: rgba(165, 42, 42, 0.452); */
+    background-color: rgba(165, 42, 42, 0.452);
 }
 
 /****** 
@@ -67,7 +67,7 @@ Header
     padding: 0 15px;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: white;
-    
+}
 
 .button {
     background-color: pink;
