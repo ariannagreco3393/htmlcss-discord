@@ -265,10 +265,23 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.CTA-button {
+    border: none;
+    color: white;
+    background-color: #5865f2a9;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
+
 h3 {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 30px;
-   
    
 }
 
@@ -280,6 +293,15 @@ h3 {
 Footer
 *********/
 
+.col-sm-footer > h3 {
+    color: #5865F2;
+    padding: 80px 50px;
+}
+.bg_darkgray {
+    background-color: #22272A;
+    height: 100%;
+}
+
 .row-footer::after{
     content: "";
     display: table;
@@ -287,15 +309,16 @@ Footer
 }
 
 .row-footer {
-    background-color: black;
+     background-color: black;
     height: 500px;
+    width: ;
 }
 
 .col-sm-footer {
     width: 30%;
     height: 300px;
     float: left;
-    background-color:green;
+     background-color:green;
 }
 
 .col-lg-footer {
@@ -324,6 +347,25 @@ Footer
     height: 100px;
     float: left;
     background-color: orange;
+}
+
+.choose_language{
+    background-color: red;
+    height: 16px;
+   
+}
+
+.choose_language  > img {
+    width: 24px;
+    height: 100%;
+    line-height: 18px;
+
+}
+
+.language {
+    font-size: 14px;
+    line-height: 18px;
+  
 }
 
 
