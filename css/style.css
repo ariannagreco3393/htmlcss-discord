@@ -15,7 +15,7 @@
     width: 1420px;
     height: 700px;
     margin: auto;
-    background-color: rgba(165, 42, 42, 0.452);
+    /* background-color: rgba(165, 42, 42, 0.452); */
 }
 
 /****** 
@@ -37,9 +37,7 @@ Header
 
 
 .navbar {
-    background-color: black;
-    height: 100px;
-    padding: 0 30px;
+    padding: 20px 30px;
 
 }
 
@@ -50,18 +48,26 @@ Header
 }
 
 .logo {
-    background-color: azure;
-    height: 50px;
     width: 20%;
     float: left;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 .menu {
-    background-color: aquamarine;
     float: left;
-    height: 50px;
     width: 60%;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
 }
+
+.menu > a {
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    
 
 .button {
     background-color: pink;
