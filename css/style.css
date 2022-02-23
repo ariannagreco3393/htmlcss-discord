@@ -140,6 +140,27 @@ Footer
 
 
 
+.row-footer-2 {
+    background-color: yellow;
+    height: 100px;
+}
+
+.row-footer-2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.col-footer {
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: orange;
+}
+
+
+
 
 
 
