@@ -341,17 +341,6 @@ Footer
 
 
 
-.row-footer-2 {
-    background-color: yellow;
-    height: 100px;
-}
-
-.row-footer-2::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 
 
@@ -393,12 +382,50 @@ h5 {
     line-height: 33px
 }
 
+
+
+.row-footer-2 {
+    /* background-color: yellow; */
+    height: 100px;
+}
+
+.row-footer-2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .col-footer {
     width: 50%;
     height: 100px;
     float: left;
-    background-color: orange;
+    /* background-color: orange; */
 }
+
+
+.button-footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.registrati {
+    border: none;
+    margin: 10px;
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #5865f2a9;
+    float: right;
+
+}
+
+.button-footer {
+    height: 100px;
+}
+
 
 
 
