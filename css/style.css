@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+}
 
 
 
@@ -67,11 +73,9 @@ Header
 }
 
 .menu > a {
-    text-decoration: none;
     padding: 0 15px;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: white;
 }
+
 
 .button {
     float: left;
@@ -295,7 +299,7 @@ Footer
 
 .col-sm-footer > h3 {
     color: #5865F2;
-    padding: 80px 50px;
+    padding: 80px 50px 20px;
 }
 .bg_darkgray {
     background-color: #22272A;
@@ -318,7 +322,7 @@ Footer
     width: 30%;
     height: 300px;
     float: left;
-     background-color:green;
+     /* background-color:green; */
 }
 
 .col-lg-footer {
@@ -350,8 +354,8 @@ Footer
 }
 
 .choose_language{
-    background-color: red;
     height: 16px;
+    padding: 0 50px;
    
 }
 
@@ -364,8 +368,23 @@ Footer
 
 .language {
     font-size: 14px;
-    line-height: 18px;
-  
+    color: white;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h5 {
+    font-size: 20px ;
+    color: #5865F2;
+    padding: 80px 50px 0;
+    line-height: 24px
+
+}
+
+.col-1 > a {
+    
+    padding: 0 50px;
+    display: block;
+    line-height: 24px
 }
 
 
