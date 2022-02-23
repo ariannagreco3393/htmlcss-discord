@@ -20,6 +20,8 @@
     /* background-color: rgba(165, 42, 42, 0.452); */
 }
 
+
+
 /****** 
 Header
 ******/
@@ -150,10 +152,18 @@ h1 {
 Main
 *********/
 
+.bg_gray {
+    background-color: #F6F6F6;
+    height: 100%;
+} 
+
 .item {
     max-width: 100%;
     max-height: 100%;
 }
+
+/* 3 section
+*/
 
 .row::after {
     content: "";
@@ -165,7 +175,6 @@ Main
     width: 100%;
     height: 700px;
     padding: 0 30px;
-    background-color: blueviolet;
     padding: 150px;
 }
 
@@ -173,7 +182,7 @@ Main
     width: 60%;
     height: 700px;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -181,13 +190,15 @@ Main
     width: 40%;
     height: 700px;
     float: left;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     padding: 30px 50px;
 }
 
 h2 {
     font-size: 45px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+
 }
 
 .col-sm>p {
@@ -196,15 +207,53 @@ h2 {
     line-height: 30px;
 }
 
+/* Colonna unica
+*/
+
+
+.container-colonna {
+    width: 1420px;
+    height: 1200px;
+    margin: auto;
+}
+
+
+
+.row-colonna {
+        width: 100%;
+        height: 1200px;
+        padding: 0 30px;
+        padding: 150px;
+        background-color: blue;
+    }
 
 .colonna {
     width: 100%;
-    height: 500px;
+    height: 100%;
     float: left;
-    background-color: antiquewhite;
+    background-color: red;
+    position: relative;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
+ .colonna > h2 {
+    font-size: 50px;
+    text-align: center;
+ }
 
+.colonna > p {
+    font-size: 20px;
+    margin: 30px 60px;
+    line-height: 30px;
+    text-align: center; 
+}
+
+.colonna > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /********
 Footer
 *********/
